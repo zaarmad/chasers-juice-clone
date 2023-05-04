@@ -5,6 +5,7 @@ import HomePage from "~/features/home/HomePage";
 
 export const meta: V2_MetaFunction = () => [{ title: "Chasers Fresh Juice" }];
 
+// test
 export const loader: LoaderFunction = async () => {
   const response = await fetch(
     `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,permalink&access_token=${process.env.IG_KEY}`
