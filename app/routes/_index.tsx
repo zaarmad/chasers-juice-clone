@@ -8,7 +8,7 @@ export const meta: V2_MetaFunction = () => [{ title: "Chasers Fresh Juice" }];
 // test
 export const loader: LoaderFunction = async () => {
   const response = await fetch(
-    `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,permalink&access_token=IGQVJVNTJMeTBwcFZA4QnhCd2VUcjFxa09TQmRUVFZAxTjk5TnpBcFBtam1QRmRvc2ZAlT2VZAQlJvcnMwNktneG5NVnZApcVpXTXo2SlhIaHdTUzB2NEFKdWpYTXJoSkItbzVaUDBtRUNPSFdZAaG5OWE1WUU5qeFZAqVi1OTEhz`
+    `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,permalink&access_token=IGQVJYdGpsbG05dm1nN090amUtcGtNeG94SkdBZAEMzRVd1WlI4OGhQY1U0MWpOUGxmb0F0Mi1KTndNN1FRZA2pkU2NBY0xJQTNnaGdkcmdmbkVmc2dPMkdPdWRfb1RiNHpQZAUJtWmsxYkFyX2VCbGt3SXdyR1JLYWg4VEFr`
   );
   const data = await response.json();
 
