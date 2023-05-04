@@ -25,7 +25,7 @@ const InstagramSwiper = () => {
   return (
     <Box>
       <Slider {...sliderSettings}>
-        {data.map((post) => {
+        {/* {data.map((post) => {
           return (
             <Flex key={post.id}>
               <AspectRatio ratio={1 / 1}>
@@ -39,7 +39,7 @@ const InstagramSwiper = () => {
               </AspectRatio>
             </Flex>
           );
-        })}
+        })} */}
       </Slider>
     </Box>
   );
